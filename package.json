@@ -1,0 +1,16 @@
+{
+  "name": "pakatoi-mvp",
+  "version": "1.0.0",
+  "description": "Plateforme innovante de partage et résolution des tracas du quotidien",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "keywords": ["pakatoi", "mvp", "nodejs"],
+  "author": "Nicolas Silberman",
+  "license": "MIT"
+}
